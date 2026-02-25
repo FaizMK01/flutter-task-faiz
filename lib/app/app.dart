@@ -21,7 +21,7 @@ import 'package:faiztask/ui/bottom_sheets/cart/cart_sheet.dart';
     // @stacked-service
   ],
   bottomsheets: [
-   // StackedBottomsheet(classType: NoticeSheet),
+    StackedBottomsheet(classType: NoticeSheet),
     StackedBottomsheet(classType: CartSheet),
     // @stacked-bottom-sheet
   ],

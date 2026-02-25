@@ -1,9 +1,9 @@
+import 'package:faiztask/ui/bottom_sheets/notice/notice_sheetmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:faiztask/ui/common/ui_helpers.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
-import 'notice_sheet_model.dart';
 
 class NoticeSheet extends StackedView<NoticeSheetModel> {
   final Function(SheetResponse)? completer;

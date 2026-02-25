@@ -1,0 +1,11 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:faiztask/app/app.locator.dart';
+
+import '../helpers/test_helpers.dart';
+
+void main() {
+  group('EuroConnectedModel Tests -', () {
+    setUp(() => registerServices());
+    tearDown(() => locator.reset());
+  });
+}
